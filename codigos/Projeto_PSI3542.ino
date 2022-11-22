@@ -14,8 +14,8 @@ DHT_Unified dht(DHTPIN, DHTTYPE);
 uint32_t delayMS;
  
 //MQTT Credentials
-const char* ssid = "Multi";//setting your ap ssid
-const char* password = "megaWare130c!";//setting your ap psk
+const char* ssid = "****** NOME REDE ********";//setting your ap ssid
+const char* password = "*****SENHA REDE *****";//setting your ap psk
 
 const char* mqttServer = "broker.mqttdashboard.com"; //MQTT URL
 const char* mqttUserName = "10792160";  // MQTT username
